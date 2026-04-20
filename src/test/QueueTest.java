@@ -20,9 +20,10 @@ public class QueueTest {
         assertTrue(fila.estaVazia());
     }
 
-    @Test
+   @Test
     public void testfilaNaoEstaVazia() {
-        assertFalse(fila.estaVazia());
+    fila.enfileirar(10);
+    assertFalse(fila.estaVazia());
     }
 
     @Test
